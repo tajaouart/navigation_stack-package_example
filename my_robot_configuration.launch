@@ -1,0 +1,9 @@
+<launch>
+
+ <node pkg="mybot_description" type="LaserScan"   name="base_scan" output="screen"></node>
+
+ <node pkg="mybot_description" type="odom"   name="odom"      output="screen"></node>
+
+ <node pkg="mybot_description" type="tf"     name="tf"        output="screen"></node>
+
+</launch> 
